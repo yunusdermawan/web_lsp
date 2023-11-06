@@ -6,7 +6,7 @@ function Header() {
   return (
             <>
 
-                <div className="h-32 navbar bg-base-100">
+                <div className="h-32 navbar text-white fixed z-40">
                     <div className="navbar-start mt-[-50px]">
                         <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -16,7 +16,7 @@ function Header() {
                         <Link to="" className="btn btn-ghost normal-case text-xl"><img className='w-52' src={logo} alt="" /></Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal uppercase font-semibold px-1">
+                        <ul className="menu menu-horizontal uppercase font-semibold lg:text-xs px-1">
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>
                             <li><Link to="/about">Regulasi</Link></li>
@@ -25,7 +25,7 @@ function Header() {
                             <li><Link to="/about">Support</Link></li>
                         </ul>
                     </div>
-                    <div className="navbar-end">
+                    <div className="navbar-end hidden">
                         <Link to="" className="btn rounded-full w-44 font-bold">Login</Link>
                     </div>
                 </div>
