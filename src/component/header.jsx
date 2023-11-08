@@ -7,7 +7,7 @@ function Header() {
             <>
 
                 <div className="h-32 navbar text-white fixed z-40">
-                    <div className="navbar-start mt-[-3.125rem] md:ms-12">
+                    <div className="navbar-start mt-[-3.125rem] md:ms-12 lg:ms-0">
                         <Link to="" className="btn btn-ghost normal-case text-xl"><img className='w-52' src={logo} alt="" /></Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
@@ -23,7 +23,7 @@ function Header() {
                     <div className="navbar-end hidden">
                         <Link to="" className="btn rounded-full w-44 font-bold">Login</Link>
                     </div>
-                    <div className="md:navbar-end mt-3 md:me-12">
+                    <div className="md:navbar-end lg:hidden mt-3 md:me-12 lg:me-0">
                         <div className="dropdown dropdown-bottom dropdown-end">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>

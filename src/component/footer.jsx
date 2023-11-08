@@ -28,7 +28,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <div className='flex flex-col items-end text-right lg:text-[0.6rem]'>
+                        <div className='flex flex-col items-end text-right text-[0.6rem]'>
                             <p>	&copy; 2023 | LSP DIGITAL KREATIF SOLUSI. All rights reserved.</p>
                             <span>Design by Ariq Fadhilah</span>
                         </div>
