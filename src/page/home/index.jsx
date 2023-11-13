@@ -45,8 +45,8 @@ function Home() {
                 </div>
                 <div className='hidden md:block'>
                     <div className='relative'>
-                        <img src={law_section2} className='absolute -scale-x-100 xl:w-[18.75rem] z-10 md:left-[4.5rem] lg:left-32 lg:-top-20' alt="" />
-                        <img src={under_hero} className='absolute lg:w-[21.875rem] xl:w-[28.125rem] z-0 md:left-40 lg:left-[13.75rem] lg:-top-20' alt="" />
+                        <img src={law_section2} className='absolute -scale-x-100 xl:w-[18.75rem] z-10 md:left-[4.5rem] lg:left-32 lg:-top-20 2xl:-top-0' alt="" />
+                        <img src={under_hero} className='absolute lg:w-[21.875rem] xl:w-[28.125rem] z-0 md:left-40 lg:left-[13.75rem] lg:-top-20 2xl:-top-0' alt="" />
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ function Home() {
                     {/* Tab BP - 768px */}
                     <div className='md:flex flex-col justify-center items-center lg:hidden px-16'>
                         <div className='text-center'>
-                            <h1 className='md:text-[1.5rem] lg:text-3xl xl:text-4xl uppercase md:mb-3 lg:mb-3'>komitmen lsp</h1>
+                            <h1 className='md:text-[1.5rem] lg:text-3xl xl:text-4xl uppercase md:mb-3 lg:mb-3' style={{background: 'red !important'}}>komitmen lsp</h1>
                             <p className='lg:text-[1rem] xl:text-xs 2xl:text-sm md:mb-4 lg:mb-3 '>Kami berkomitmen untuk menyelenggarakan proses sertifikasi kompetensi SDM di bidang teknologi informasi dan komunikasi (TIK) secara profesional. Keberhasilan dalam mencapai visi, misi, sasaran, dan kebijakan mutu ditentukan oleh komitmen personil badan pelaksana dan dewan pengarah dalam pelaksanaan program dan strategi kebijakan LSP (Lembaga Sertifikasi Profesi) Digital Kreatif Solusi yang berorientasi kepada kompetensi peserta uji dan kebutuhan para pemangku kepentingan.</p>
                         </div>
                         <img className='w-[80%] md:pb-4 lg:pb-0' src={hero} alt="" />
@@ -74,7 +74,7 @@ function Home() {
             {/* Schema of field of study */}
             <div className=' md:bg-[#F86D42] lg:bg-transparent rounded-xl mt-10 lg:mt-0 xl:mt-4 2xl:mt-[58rem] md:px-8 lg:px-0 md:py-10 lg:py-0'>
                 <div className='flex justify-center uppercase md:text-[1.5rem] lg:text-[2rem] 2xl:text-6xl md:font-bold text-white mb-2'><h1>Skema Sertifikasi</h1></div>
-                <div className='text-[#3395FF] 2xl:text-sm'>
+                <div className='text-[#3395FF] 2xl:text-sm text-center 2xl:pt-2'>
                     <p>*Skema sertifikasi okupasi LSP-DKS mengacu pada SKKNI (Standar Kompetensi Kerja Nasional Indonesia Peta okupasi PROSERTI KOMINFO RI)</p>
                 </div>
                 <div className='flex justify-center mt-16'>
