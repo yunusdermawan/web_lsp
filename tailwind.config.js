@@ -34,6 +34,9 @@ module.exports = {
       '4xl': '1920px',
       '6xl': '2560px',
     },
+    backgroundSize: {
+      '100': '100% 95%',
+    },
   },
   
 }

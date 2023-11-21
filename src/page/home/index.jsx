@@ -12,9 +12,12 @@ import proc_section1 from '../../asset/proc_section1.png'
 import proc_section2 from '../../asset/proc_section2.png'
 import law_section1 from '../../asset/law_section1.png'
 import law_section2 from '../../asset/law_section2.png'
-import background from '../../asset/Background.jpg'
+import background from '../../asset/vector1-header.png'
 import under_hero from '../../asset/under_hero1.png'
 import hero from '../../asset/hero_section.png'
+import heroBG from '../../asset/vector2-schema.png'
+import tujuanBG from '../../asset/vector3-tujuan.png'
+import faqBG from '../../asset/vector4-faq.png'
 import schema from '../../asset/schema.png'
 import mapBG from '../../asset/mapBG.png'
 import logosdk from '../../asset/LSP.png'
@@ -25,7 +28,7 @@ function Home() {
 
     
   return (
-    <div style={{backgroundImage: `url(${background})`, height: '100%', width: '100%'}} className='container[2560px] mx-auto bg-no-repeat bg-contain 2xl:bg-cover overflow-x-hidden'>
+    <div style={{backgroundImage: `url(${background})`,backgroundSize: '95% 35%', height: '100%', width: '100%', backgroundPosition: '100% 0%'}} className='container[2560px] mx-auto bg-no-repeat bg-contain overflow-x-hidden'>
 
         <header>
             <div className='md:pb-10 lg:pb-16'>
@@ -54,8 +57,8 @@ function Home() {
                 </div>
             </div>
             {/* Schema section */}
-            <div className='md:h-[52rem] lg:h-[30.625rem] xl:h-[30rem] 2xl:h-[6rem] relative'>
-                <div className='absolute grid gap-8 grid-cols-1 lg:grid-cols-2 z-30 md:mt-20 lg:mt-6 xl:mt-12 2xl:mt-16 md:py-6 lg:py-6 xl:py-10 2xl:py-16 md:px-2 lg:px-8 bg-[#F2F0F4] rounded-3xl'>
+            <div className='relative md:h-[52rem] lg:h-[30.625rem] xl:h-[30rem] 2xl:h-[6rem]'>
+                <div className='absolute z-30 grid gap-8 grid-cols-1 lg:grid-cols-2  md:mt-20 lg:mt-6 xl:mt-12 2xl:mt-16 md:py-6 lg:py-6 xl:py-10 2xl:py-16 md:px-2 lg:px-8 bg-[#F2F0F4] rounded-3xl'>
                     {/* Tab BP - 768px */}
                     <div className='md:flex flex-col justify-center items-center lg:hidden px-16'>
                         <div className='text-center'>
@@ -75,7 +78,10 @@ function Home() {
                 </div>
             </div>
             {/* Schema of field of study */}
-            <div className=' md:bg-[#F86D42] lg:bg-transparent rounded-xl mt-10 lg:mt-0 xl:mt-16 2xl:mt-[36rem] xl:pt-0 2xl:pt-0 3xl:pt-64 md:px-8 lg:px-0 md:py-10 lg:py-0'>
+            <div className='relative md:bg-[#F86D42] lg:bg-transparent rounded-xl mt-10 lg:mt-0 xl:mt-16 2xl:mt-[36rem] xl:pt-0 2xl:pt-0 3xl:pt-64 md:px-8 lg:px-0 md:py-10 lg:py-0'>
+                <div className='absolute -z-40 xl:-left-[6rem] xl:top-[-3rem] w-[120%]'>
+                    <img src={heroBG} alt="" />
+                </div>
                 <div className='flex justify-center uppercase md:text-[1.5rem] lg:text-[2rem] 2xl:text-[3.25rem] md:font-bold text-white mb-2 xl:pt-8 2xl:pt-20'><h1>Skema Sertifikasi</h1></div>
                 <div className='text-[#3395FF] xl:w-[80%] 2xl:w-[90%] 2xl:text-base text-center 2xl:pt-2 mx-auto'>
                     <p>*Skema sertifikasi okupasi LSP-DKS mengacu pada SKKNI (Standar Kompetensi Kerja Nasional Indonesia Peta okupasi PROSERTI KOMINFO RI)</p>
@@ -83,6 +89,7 @@ function Home() {
                 <div className='flex justify-center mt-16 xl:mt-12 '>
                     <img className='w-[85%] 2xl:w-[82%]' src={schema} alt="" />
                 </div>
+                {/* This part is hidden */}
                 <div className='hidden lg:mt-2 xl:mt-6 lg:py-2 xl:py-4 lg:px-6 lg:bg-[#F2F0F4] w-full font-sans lg:text-xl lg:font-semibold md:text-white lg:text-gray-500'>
                     <div className='flex lg:mb-1 xl:mb-3'>
                         <span className='w-16 lg:text-[0.8rem] xl:text-sm'>1</span>
@@ -221,7 +228,10 @@ function Home() {
             </div>
             {/* Tujuan dan Sarana section */}
             <div className='relative flex justify-center items-center gap-8 3xl:gap-20 md:mt-16 lg:mt-24 xl:mt-16 2xl:mt-[10rem] xl:pt-12 2xl:pt-24 3xl:pt-40'>
-                <div className='relative md:hidden lg:block lg:w-[50%] 2xl:w-[35%] lg:h-[34.375rem] 2xl:h-[28rem] 3xl:h-[35rem] bg-[#F7F5F9] rounded-2xl 2xl:ms-6'>
+                <div className='absolute -z-30 xl:top-[-10rem] w-[120%]'>
+                    <img src={tujuanBG} alt="" />
+                </div>
+                <div className='relative md:hidden lg:block lg:w-[45%] 2xl:w-[35%] lg:h-[34.375rem] 2xl:h-[28rem] 3xl:h-[35rem] bg-[#F7F5F9] rounded-2xl 2xl:ms-6'>
                     <div>
                         <img className='lg:w-28 lg:ms-16 lg:mt-12' src={proc_section1} alt="" />
                     </div>
@@ -253,7 +263,10 @@ function Home() {
                 </div>
             </div>
             {/* FAQ section */}
-            <div className='xl:mt-[8rem] 2xl:mt-[10rem] text-white xl:pb-6'>
+            <div className='relative bg-100 bg-no-repeat bg-center xl:mt-[20rem] 2xl:mt-[12rem] text-white xl:pb-6 '>
+                <div className='absolute -z-40 xl:top-[-25rem] xl:left-[-6rem] w-[120%]'>
+                    <img src={faqBG} className='xl:h-[75rem]' alt="" />
+                </div>
                 <div className='text-center xl:mb-2 2xl:mb-0 xl:pt-4
                  2xl:pt-24 3xl:pt-72'>
                     <h1 className='xl:text-4xl 2xl:text-[3.25rem] 3xl:mb-6'>FAQ</h1>
@@ -353,7 +366,7 @@ function Home() {
                 </div>
             </div>
             {/* Bottom Section */}
-            <div className='flex flex-col justify-center items-center xl:mt-[6rem] 2xl:mt-[8rem] 3xl:mt-72'>
+            <div className='flex flex-col justify-center items-center xl:mt-[18.75rem] 2xl:mt-[8rem] 3xl:mt-72'>
                 <h1 className='xl:text-4xl 2xl:text-[3.25rem] font-semibold text-center pb-10 2xl:pb-6 '>Contact Us</h1>
                 <div className='grid grid-cols-4 2xl:mt-0'>
                     <div className='col-span-1 2xl:pt-8'><img src={logosdk} alt="" /></div>
@@ -362,7 +375,7 @@ function Home() {
                     </div>
                     <div className='col-span-1'><img src={mapBG} alt="" /></div>
                 </div>
-                <div className='flex flex-col justify-center items-center xl:mt-6 2xl:-mt-16 xl:pb-6 2xl:pb-0 mx-auto 2xl:mb-6'>
+                <div className='flex flex-col justify-center items-center xl:-mt-2 2xl:-mt-16 xl:pb-6 2xl:pb-0 mx-auto 2xl:mb-6'>
                     <p className='2xl:w-[50%] 2xl:text-base text-center 2xl:mt-3'>Alamanda Tower Lantai 2 Unit-H1 Jl. TB.  Simatupang No. 23 - 24 RT 001 RW 001, Kelurahan Cilandak Barat, Kecamatan Cilandak, Jakarta Selatan, DKI Jakarta 1243 </p>
                     <span className='flex mt-4'>
                         <p className='font-semibold'>Phone:</p><p className='text-[#2278D4]'>081188809565</p>
@@ -379,7 +392,7 @@ function Home() {
 
         </main>
 
-        <footer className=' bottom-0 md:mt-64 lg:mt-12 2xl:mt-6 xl:my-4 2xl:my-8 '>
+        <footer className=' bottom-0 md:mt-64 lg:mt-12 xl:-mt-2 2xl:mt-6 xl:my-4 2xl:my-8 '>
 
             <div className='flex justify-center'>
                 <span className='2xl:text-base'>© Copyright LSP DIGITAL KREATIF SOLUSI 2023. All Rights Reserved</span>
