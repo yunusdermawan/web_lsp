@@ -28,7 +28,7 @@ function Home() {
 
     
   return (
-    <div style={{backgroundImage: `url(${background})`,backgroundSize: '95% 35%', height: '100%', width: '100%', backgroundPosition: '100% 0%'}} className='container[2560px] mx-auto bg-no-repeat bg-contain overflow-x-hidden'>
+    <div style={{backgroundImage: `url(${background})`,backgroundSize: '95% 35%', height: '100%', width: '100%', backgroundPosition: '100% 0%'}} className='container[2560px] 2xl:bg-hero mx-auto bg-no-repeat bg-contain overflow-x-hidden'>
 
         <header>
             <div className='md:pb-10 lg:pb-16'>
@@ -196,7 +196,7 @@ function Home() {
             </div>
             {/* Visi misi section */}
             <div>
-                <div className='relative lg:w-[80%] lg:mx-auto md:px-12 lg:px-0 xl:pt-12 2xl:pt-[2rem] 3xl:pt-20'>
+                <div className='relative lg:w-[80%] lg:mx-auto md:px-12 lg:px-0 xl:pt-12 2xl:pt-[6rem] 3xl:pt-20'>
                     <div className='flex flex-col justify-center'>
                         <div className='flex justify-center uppercase'>
                             <div className='flex md:text-[1.5rem] lg:text-4xl 2xl:text-[3.25rem]'><h1 className='md:me-3'>Visi dan Misi</h1></div>
@@ -238,11 +238,11 @@ function Home() {
                     <div className='absolute lg:bottom-20 lg:right-[-1.5rem]'>
                         <img className='lg:w-64 2xl:w-52' src={proc_section1} alt="" />
                     </div>
-                    <div className='relative lg:w-full '>
+                    <div className='relative lg:w-full'>
                         <img className='absolute lg:left-[-7.5rem] xl:left-[-6rem] lg:w-[200%]' src={proc_section2} alt="" />
                     </div>
                 </div>
-                <div className='lg:w-[50%] xl:w-[65%] 2xl:w-[70%] md:text-center lg:text-left md:px-16 xl:px-8 2xl:px-0'>
+                <div className='lg:w-[50%] xl:w-[65%] 2xl:w-[70%] md:text-center lg:text-left md:px-16 xl:px-8 2xl:px-0 2xl:pt-32'>
                     <h1 className='md:text-[1.5rem] lg:text-[1.3rem] xl:text-4xl 2xl:text-[3.25rem] font-medium md:mb-4 lg:mb-8'>TUJUAN DAN SASARAN MUTU</h1>
                     <div className='lg:text-[0.8rem] 2xl:text-base leading-7 3xl:leading-[25px] tracking-wide lg:me-12 2xl:me-0 3xl:me-20'>
                         <p>LSP DKS (Digital Kreatif Solusi) memiliki tujuan untuk Memastikan kompetensi SDM sektor TIK guna meningkatkan keunggulan (advantage), produktivitas (productivity) dan daya saing (competitive) mereka.</p>
@@ -258,14 +258,14 @@ function Home() {
                         </ol>
                     </div>
                 </div>
-                <div className='absolute md:right-16 lg:right-[-10rem] xl:-right-20 2xl:right-8 md:top-0 lg:top-8 xl:-top-24 2xl:-top-32 3xl:-top-12'>
+                <div className='absolute md:right-16 lg:right-[-10rem] xl:-right-20 2xl:right-8 md:top-0 lg:top-8 xl:-top-24 2xl:-top-32 2xl:pt-20 3xl:-top-12'>
                     <img className='md:w-[7rem] lg:w-[9.375rem] xl:w-[12rem] 2xl:w-[15rem]' src={reg_section4} alt="" />
                 </div>
             </div>
             {/* FAQ section */}
-            <div className='relative bg-100 bg-no-repeat bg-center xl:mt-[20rem] 2xl:mt-[12rem] text-white xl:pb-6 '>
+            <div className='relative bg-100 bg-no-repeat bg-center xl:mt-[20rem] 2xl:mt-[6rem] text-white xl:pb-6 '>
                 <div className='absolute -z-40 xl:top-[-25rem] xl:left-[-6rem] w-[120%]'>
-                    <img src={faqBG} className='xl:h-[75rem]' alt="" />
+                    <img src={faqBG} className='xl:h-[75rem] 2xl:h-[90rem]' alt="" />
                 </div>
                 <div className='text-center xl:mb-2 2xl:mb-0 xl:pt-4
                  2xl:pt-24 3xl:pt-72'>
@@ -340,7 +340,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-full flex md:gap-10 lg:gap-6 lg:mt-8 md:px-16 lg:px-0 md:mt-10 lg:mt-0'>
+                    <div className='w-full flex md:gap-10 lg:gap-6 lg:mt-8 md:px-16 lg:px-0 md:mt-10'>
                         <div className='w-full bg-white md:rounded-xl lg:rounded-2xl lg:px-12 lg:-mt-10'>
                             <div className='text-center flex flex-col justify-center items-center py-5'>
                                 <img className='md:w-[40%] lg:w-[50%] mb-4' src={law_section1} alt="" />
@@ -366,7 +366,7 @@ function Home() {
                 </div>
             </div>
             {/* Bottom Section */}
-            <div className='flex flex-col justify-center items-center xl:mt-[18.75rem] 2xl:mt-[8rem] 3xl:mt-72'>
+            <div className='flex flex-col justify-center items-center xl:mt-[18.75rem] 2xl:mt-[24rem] 3xl:mt-72'>
                 <h1 className='xl:text-4xl 2xl:text-[3.25rem] font-semibold text-center pb-10 2xl:pb-6 '>Contact Us</h1>
                 <div className='grid grid-cols-4 2xl:mt-0'>
                     <div className='col-span-1 2xl:pt-8'><img src={logosdk} alt="" /></div>
