@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
-import logosdk from '../asset/LSP.png'
+import logodks from '../asset/LSP.png'
 import logobnsp from '../asset/logo-bnsp.png'
 import { motion } from 'framer-motion';
 
@@ -33,7 +33,7 @@ function Header() {
                 <motion.div animate={{ backgroundColor: "#fff" }} className="h-32 navbar flex items-center text-slate-400 fixed z-40">
                     <div className="navbar-start flex items-end mt-[-3.125rem] md:ms-12 lg:ms-0 2xl:px-12">
                         <div className='flex items-end 2xl:pt-4'>
-                            <Link to="" className="btn btn-ghost normal-case text-xl hover:bg-transparent"><img className='w-28' src={logosdk} alt="" /></Link>
+                            <Link to="" className="btn btn-ghost normal-case text-xl hover:bg-transparent"><img className='w-28' src={logodks} alt="" /></Link>
                             <Link to="" className="btn btn-ghost normal-case text-xl hover:bg-transparent"><img className='w-24' src={logobnsp} alt="" /></Link>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ function Header() {
                 <div className="h-32 navbar flex items-center text-white fixed z-40">
                     <div className="navbar-start flex items-end mt-[-3.125rem] md:ms-12 lg:ms-0 2xl:px-12">
                         <div className='flex items-end 2xl:pt-4'>
-                            <Link to="" className="btn btn-ghost normal-case text-xl hover:bg-transparent"><img className='w-28' src={logosdk} alt="" /></Link>
+                            <Link to="" className="btn btn-ghost normal-case text-xl hover:bg-transparent"><img className='w-28' src={logodks} alt="" /></Link>
                             <Link to="" className="btn btn-ghost normal-case text-xl hover:bg-transparent"><img className='w-24' src={logobnsp} alt="" /></Link>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ function Header() {
                             <li><Link className='hover:bg-white' to="/about">Support</Link></li>
                         </ul>
                     </div>
-                    <div className="navbar-end xl:pe-3 2xl:pe-12">
+                    <div className=" navbar-end xl:pe-3 2xl:pe-12">
                         <motion.Link whileHover={{scale: 1.3, originX: -3}} to="" className="btn btn-md xl:w-[80%] 2xl:w-full 3xl:w-[80%] rounded-full bg-black text-white border-0 w-44 font-bold hover:text-black">Daftar</motion.Link>
                     </div>
                     <div className="md:navbar-end lg:hidden mt-3 md:me-12 lg:me-0">

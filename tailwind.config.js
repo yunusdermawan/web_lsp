@@ -37,6 +37,7 @@ module.exports = {
     backgroundSize: {
       '100': '100% 95%',
       'hero': '85% 35% !important',
+      'mobile': '70% 10% !important',
     },
   },
   
