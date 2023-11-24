@@ -396,7 +396,7 @@ function Home() {
                 <div className='grid grid-cols-1 lg:grid-cols-4 2xl:mt-0'>
                     <div className='hidden lg:block col-span-1 2xl:pt-8'><img src={logodks} alt="" /></div>
                     <div className='col-span-2 flex flex-col items-center 2xl:w-[100%]'>
-                        <iframe className=' 2xl:h-[70%] md:w-[80%] xl:w-[85%] 2xl:w-[80%]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.86191215327258!2d106.80404883930723!3d-6.291230517508873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1e51180092d%3A0x83966b321f418c56!2sKap.%20S.%20Mannan%20Ardiansyah%20%26%20Rekan!5e0!3m2!1sen!2sid!4v1699864836396!5m2!1sen!2sid" style={{border:"1"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe className=' 2xl:h-[70%] md:w-[80%] xl:w-[85%] 2xl:w-[80%]' src="https://www.google.com/maps/dir//Marquee+-+Alamanda+Tower,+Alamanda+Tower+25th+floor,+Jl.+TB+Simatupang+No.Kav.+23-24,+RT.1%2FRW.1,+Cilandak+Bar.,+Kec.+Cilandak,+Kota+Jakarta+Selatan,+Daerah+Khusus+Ibukota+Jakarta+12430/@-6.2945523,106.8174273,15z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x2e69f1fa3c8fa59b:0x7df89ae532fac695!3e0?hl=en&gl=ID" style={{border:"1"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div className='col-span-1'><img src={mapBG} alt="" /></div>
                 </div>
